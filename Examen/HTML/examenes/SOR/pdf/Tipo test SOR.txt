@@ -1,0 +1,27 @@
+1. La version mas económica de Windows Server es:
+Windows Server Essential
+
+2. Indica cual de las siguientes no es una opcion con la que se pueda personalizar la instalacion de un servidor Windows:
+Essential
+
+3.Se necesita tener 5 particiones en un disco duro con el estilo MBR,¿como se podria hacer?
+2 particiones primarias, 1 extendida y, dentro de ella, 3 logicos 
+
+4. Indica cual de los siguientes es un software hipervisor:
+VirtualBox
+
+5. Las iniciales de GPL corresponden a:
+General Public License 
+
+6.¿Que tamaño maximo puede tener una particion en el estilo MBR?
+2Tera
+
+7. Se necesita tener 6 particiones en un disco duro con el estilo MBR ¿Como se podria hacer?
+3 particiones primarias, 1 extendida, y dentro de ellas, 3 lógicas
+
+8. Si se amplia la memoria fisica de un servidor a 8GB,¿a qué caracteristica de la arquitectura cliente-servidor corresponden a esta acción?
+Escalabilidad vertical
+
+9. De los siguientes SO,¿cual tiene licencia de software libre?
+Ubuntu
+
