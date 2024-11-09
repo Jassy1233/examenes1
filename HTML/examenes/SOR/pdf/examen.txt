@@ -1,0 +1,52 @@
+Definición de los SO :
+
+	Caracteristicas :
+		Tipos :
+		-
+		-
+	Definición :
+
+Características SO :
+	-
+	-
+	-
+	-
+	-
+	-
+
+Arquitectura SO
+	-
+	-
+	-
+	Servicios :
+	-
+	-
+	-
+	-
+	-
+	-
+
+Transparencia de un SO
+Caracteristicas :
+	-
+	-
+	-
+	-
+	-
+	-
+	-
+	-
+
+Clasificación segun el tipo de servicio :
+Servidores :
+	-
+	-
+	-
+	-
+	-
+	-
+
+Tipos de windows Server :
+	-
+	-
+	-

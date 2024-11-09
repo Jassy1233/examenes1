@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../CSS/style2.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <h1 class="ind" id="volver">Índice</h1>
+        <ul>
+            <li><a href="../../../index.html" class="volv">Inicio</a></li>
+        </ul>
+    </nav>
+    <ul class="ulIndice">
+        <li class="indice"><a href="#1">Internet y Protocolo</a></li>
+        <li class="indice"><a href="#2">Concepto Host</a></li>
+        <ul>
+            <li>Ordenador local</li>
+            <li>Ordenador remoto</li>
+        </ul>
+        <li class="indice"><a href="#3">Modelo cliente-servidor</a></li>
+        <li class="indice"><a href="#4">Dominios</a></li>
+        <li class="indice"><a href="#5">Servicios de internet</a></li>
+        <ul>
+            <li><a href="#6">WWW</a></li>
+            <li><a href="#7">FTP</a></li>
+            <ul>
+                <li>FTP anónimo</li>
+                <li>FTP privado</li>
+            </ul>
+            <li><a href="#8">Correo electronico</a></li>
+            <li><a href="#9">Telnet</a></li>
+        </ul>
+        <li class="indice"><a href="#10">Evolución de la web</a></li>
+        <ul>
+            <li>Web 1.0 (Solo lectura)</li>
+            <li>Web 1.5 (Dinámica)</li>
+            <li>Web 2.0 (Social)</li>
+            <li>Web 3.0 (Semántica)</li>
+            <li>Web 4.0 (Ubicua)</li>
+        </ul>
+        <li class="indice"><a href="#11">Servidor web</a></li>
+        <ul>
+            <li>Definicion Servidor web</li>
+            <li>URL</li>
+            <li>Lenguajes cliente y servidor</li>
+        </ul>
+    </ul>
+    <h2 id="1">Internet y Protocolo</h2>
+    <h6 class="volver"><a href="#volver">Volver</a></h6>
+    <p>Red mundial de ordenadores formada por multitud de pequeñas redes y de ordenadores individuales conectados para
+        intercambiar información, existe red abierta y no centralizada :</p>
+    <div class="container">
+        <div class="tarjeta">
+            <h3>Red abierta</h3>
+            <p>Conecta cualquier tipo de red y sin necesidad de realizar cambios en ella</p>
+        </div>
+        <div class="tarjeta">
+            <h3>No centralizada</h3>
+            <p>Indice de los temas sobre los que podemos pedir información</p>
+        </div>
+    </div>
+    <p>Para que 2 ordenadores se conecten entre si mediante internet se hace uso de un protocolo :</p>
+    <dl>
+        <dt>Protocolo</dt>
+        <dd>Conjunto de convenciones que determinan como se realiza el intercambio de datos entre 2 ordenadores o
+            programas</dd>
+    </dl>
+    <h2 id="2">Host</h2>
+    <h6 class="volver"><a href="#volver">Volver</a></h6>
+    <p>Cualquier equipo conectado a una red y que dispone de una dirección IP</p>
+    <ul>
+        <li>Ordenador local : El usuario comienza una sesión de trabajo</li>
+        <li>Ordenador remoto : El usuario establece contacto a través de internet</li>
+    </ul>
+    <h2 id="3">Cliente-Servidor</h2>
+    <h6 class="volver"><a href="#volver">Volver</a></h6>
+    <ul>
+        <li>El usuario ejecuta una aplicación en su ordenador local (Cliente)</li>
+        <li>El programa cliente se pondrá en contacto con el ordenador remoto para solicitar la información deseada</li>
+        <li>El ordenador remoto responde a través de otro programa capaz de proveer la información requerida</li>
+    </ul>
+    <h2 id="4">Sistema de nombres de dominio</h2>
+    <h6 class="volver"><a href="#volver">Volver</a></h6>
+    <ul>
+        <li>Nombres formados por palabras separadas por puntos</li>
+        <li>Asigna nombres a los ordenadores a través de una estructura jerárquica</li>
+        <li>Dominios de primer nivel</li>
+        <ul>
+            <li>Nacionales : es, fr, uk, mx</li>
+            <li>Internaciones : com, org, net</li>
+            <li>Usuales en EEUU : edu, gov, mil</li>
+        </ul>
+        <li>DNS-Servers : Resuelven el nombre a su dirección IP</li>
+    </ul>
+    <h1 class="sinter" id="5">Servicios de internet</h1>
+    <h6 class="volver"><a href="#volver">Volver</a></h6>
+    <h2 id="6">WWW : World Wide Web</h2>
+    <ul>
+        <li>El usuario dispone de un fácil acceso a una inmensidad de información facilitada por empresas, usuarios,
+            ect...</li>
+        <li>El usuario puedo acceder a páginas web</li>
+        <li>El formato de las páginas es conocido como hipertexto</li>
+        <li>Compuesto por navegadores y otros servicios como el correo</li>
+    </ul>
+    <h2 id="7">FTP : File Transfer Protocol</h2>
+    <h6 class="volver"><a href="#volver">Volver</a></h6>
+    <ul>
+        <li>Transferencia de archivos entre ordenadores</li>
+        <li>Sus servidores contienen gran cantidad de archivos</li>
+        <li>2 tipos de servidores</li>
+        <ul>
+            <li>FTP anónimo : Son de doniminio público, por lo que cualquiera puede acceder a sus archivos</li>
+            <li>FTP privado : Para acceder a sus archivos hay que tener permisos</li>
+        </ul>
+    </ul>
+    <h2 id="8">Correo electronico</h2>
+    <h6 class="volver"><a href="#volver">Volver</a></h6>
+    <ul>
+        <li>Intercambio de mensajes entre los usuarios de red, no importa si no están conectados</li>
+        <li>Se puede enviar cualquier tipo de archivos</li>
+        <li>Caracteristicas</li>
+        <ul>
+            <li>Transmite un mensaje a un grupo de usuarios a la vez</li>
+            <li>información del mensaje bien estructurada</li>
+            <li>Fácil de utilizar por los usuarios</li>
+        </ul>
+    </ul>
+    <h2>Telnet : control remoto</h2>
+    <ul>
+        <li>Es posible controlar ordenadores desde cualquier parte del mundo de forma remota</li>
+        <li>Se emplea para acceder a ordenadores a los que se tiene permiso</li>
+    </ul>
+    <h1 class="evo" id="10">Evolución de la web</h1>
+    <h6 class="volver"><a href="#volver">Volver</a></h6>
+    <div class="container">
+        <div class="tarjeta">
+            <h2>Web 1.0 (solo lectura)</h2>
+            <p>Uso de HTML, pocas actualizaciones y no tiene interacción con el usuario, solo el administrador de la
+                página puede hacer cambios</p>
+        </div>
+        <div class="tarjeta">
+            <h2>Web 1.5 (Dinámicas)</h2>
+            <p>Se utilizan lenguajes de lado cliente y el usuario puede interacturan con el sitio web</p>
+        </div>
+        <div class="tarjeta">
+            <h2>Web 2.0 (Social)</h2>
+            <p>Se utilizan como puntos de encuentro de usuarios que utilizan la inteligencia colectiva para crear
+                información. Aplicaciones que generan colaboración y servicios que reemplazan las aplicaciones de
+                escritorio</p>
+        </div>
+        <div class="tarjeta">
+            <h2>Web 3.0 (Semántica)</h2>
+            <ul>
+                <li>Las actividades del usuario se analizan en detalle, esto queda registrado al navegar a través de la
+                    web</li>
+                <li>Los usuarios pueden hacer búsquedas más cercanas al lenguaje natural</li>
+                <li>Búsquedas más eficientes</li>
+            </ul>
+        </div>
+        <div class="tarjeta">
+            <h2>Web 4.0 (Ubicua)</h2>
+            <ul>
+                <li>El SO establecido en la web cobra protagonismo donde las personas como las cosas se comunican entre
+                    si para
+                    general la toma de decisiones</li>
+                <li>Comportamiento más inteligente</li>
+            </ul>
+        </div>
+    </div>
+    <h2 id="11">Servidor web</h2>
+    <h6 class="volver"><a href="#volver">Volver</a></h6>
+    <ul>
+        <li>Es un programa diseñado para aceptar peticiones HTTP del navegador y servir las páginas que tiene alojadas,
+            XAMMP, Apache</li>
+        <li>URL : Uniform Resource Locator, direccion única del sitio web</li>
+        <ul>
+            <li>Lenguajes lado servidor: PERL, Ruby, Python</li>
+            <li>Lenguajes lado cliente: HTML, CSS, JS</li>
+        </ul>
+    </ul>
+</body>
+
+</html>
